@@ -1,0 +1,11 @@
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\bin\Debug\RauSmartHome.exe.config
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\bin\Debug\RauSmartHome.exe
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\bin\Debug\RauSmartHome.pdb
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.csproj.AssemblyReference.cache
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.csproj.SuggestedBindingRedirects.cache
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.Properties.Resources.resources
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.csproj.GenerateResource.cache
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.csproj.CoreCompileInputs.cache
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.exe
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.pdb
+D:\OneDrive\OneDrive - Colegio Universitario de Cartago\Diplomado Tecnologías de la información\Materias\01 TI-111  Fundamentos de programación\RauSmartHome\obj\Debug\RauSmartHome.MainWindow.resources
