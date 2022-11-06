@@ -124,11 +124,11 @@
   <data name="solarOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\solarOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cameraFrontNight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cameraFrontNight.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="highOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\highOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="heatingOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\heatingOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="waterOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\waterOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +142,29 @@
   <data name="lightOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lightOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="windOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pauseOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pauseOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mediumOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mediumOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sprinklerOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sprinklerOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cameraBackDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cameraBackDay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wind1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mediumOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mediumOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="coolingOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coolingOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +172,11 @@
   <data name="tvOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tvOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="moonOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\moonOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="washOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\washOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="heatingOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\heatingOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buttonOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="solarOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\solarOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +190,9 @@
   <data name="lowOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lowOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="buttonOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="coolingOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coolingOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,14 +202,17 @@
   <data name="tvOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tvOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="windOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\windOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="moonOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moonOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heatingOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heatingOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="smartHouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\smartHouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="windOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\windOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cameraFrontDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cameraFrontDay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cameraOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cameraOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +220,8 @@
   <data name="coffeeOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coffeeOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sprinklerOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sprinklerOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="heatingOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heatingOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sprinklerOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sprinklerOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,10 +232,16 @@
   <data name="lowOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lowOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="temperature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temperature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="highOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\highOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="washOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\washOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cameraBackNight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cameraBackNight.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
