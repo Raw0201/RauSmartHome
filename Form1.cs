@@ -18,26 +18,29 @@ namespace RauSmartHome
         private int hours;
         private int minutes;
         private string daytime;
+        private int lux;
         private int temperature;
         private int windSpeed;
         private Bitmap cameraFrontImage;
         private Bitmap cameraBackImage;
 
-        private bool taskTemperature;
-        private bool taskWakeup;
-        private bool taskBath;
-        private bool taskCoffee;
-        private bool taskWatering;
-        private bool taskNight;
-        private bool taskTravel;
+        private bool taskTemperature = false;
+        private bool taskWakeup = false;
+        private bool taskBath = false;
+        private bool taskCoffee = false;
+        private bool taskWatering = false;
+        private bool taskNight = false;
+        private bool taskTravel = false;
 
 
         public MainWindow()
         {
             InitializeComponent();
+
             hours = 12;
             minutes = 0;
             daytime = "pm";
+            lux = 0;
             temperature = 15;
             windSpeed = 0;
             cameraFrontImage = RauSmartHome.Properties.Resources.cameraFrontNight;
@@ -53,6 +56,10 @@ namespace RauSmartHome
         }
 
         // Pantalla principal
+
+        /// <summary>
+        /// Tareas ejecutadas al inicializar la pantalla principal
+        /// </summary>
         private void MainWindow_Load(object sender, EventArgs e)
         {
             TimeLowSpeed(sender, e);
@@ -64,11 +71,15 @@ namespace RauSmartHome
         }
 
 
-        // Reloj
+        // Control de reloj
         private void MainTimer_Tick(object sender, EventArgs e)
         {
             UpdateClock(sender, e);
             ChangeDayTimeImage(sender, e);
+            UpdateLuxMeter(sender, e);
+            SolarPanelControl(sender, e);
+            PlantsCare(sender, e);
+            HypothermiaAvoid(sender, e);
             UpdateWindMeter(sender, e);
             WindMillControl(sender, e);
             UpdateTemperatureMeter(sender, e);
@@ -173,25 +184,60 @@ namespace RauSmartHome
                 pbxSun.Visible = true;
                 pbxMoon.Visible = false;
                 pbxHouse.BackColor = Color.SkyBlue;
-                SolarOn(sender, e);
             }
             if (hours == 6 & minutes == 0 & daytime == "pm")
             {
                 pbxSun.Visible = false;
                 pbxMoon.Visible = true;
                 pbxHouse.BackColor = Color.Black;
-                SolarOff(sender, e);
             }
         }
 
 
-        // Condiciones medioambientales y cámaras
+        // Senso de condiciones medioambientales y cámaras
+        private void UpdateLuxMeter(object sender, EventArgs e)
+        {
+            if (hours == 6 & minutes == 00 & daytime == "am")
+            {
+                lux = 10;
+                lblLux.Text = lux + "k";
+            }
+            if (hours == 8 & minutes == 00 & daytime == "am")
+            {
+                lux = 120;
+                lblLux.Text = lux + "k";
+                AllLightsOff(sender, e);
+            }
+            if (hours == 4 & minutes == 00 & daytime == "pm")
+            {
+                lux = 10;
+                lblLux.Text = lux + "k";
+            }
+            if (hours == 6 & minutes == 00 & daytime == "pm")
+            {
+                lux = 0;
+                lblLux.Text = " " + lux + "k";
+            }
+        }
+
+        private void HypothermiaAvoid(object sender, EventArgs e)
+        {
+            if (temperature < 17 & taskTravel == false & taskTemperature == false)
+            {
+                HeatingOn(sender, e);
+            }
+            else
+            {
+                ConditionerOff(sender, e);
+            }
+        }
+
         private void UpdateWindMeter(object sender, EventArgs e)
         {
             if (minutes == 0 & hours % 2 == 0)
             {
                 Random rnd = new Random();
-                windSpeed = rnd.Next(0, 100);
+                windSpeed = rnd.Next(10, 100);
                 lblWind.Text = windSpeed.ToString() + "Km/h";
             }
         }
@@ -207,6 +253,21 @@ namespace RauSmartHome
                 temperature -= 2;
             }
             lblTemperature.Text = temperature.ToString() + "°C";
+        }
+
+        private void PlantsCare(object sender, EventArgs e)
+        {
+            if (taskWatering == false)
+            {
+                if (temperature > 29)
+                {
+                    SprinklerOn(sender, e);
+                }
+                else
+                {
+                    SprinklerOff(sender, e);
+                }
+            }
         }
 
         private void UpdateCameras(object sender, EventArgs e)
@@ -229,7 +290,7 @@ namespace RauSmartHome
         }
 
 
-        // Luces de la casa
+        // Control de luces
         private void LivingLightOn(object sender, EventArgs e)
         {
             btnLivingOn.Visible = true;
@@ -318,8 +379,58 @@ namespace RauSmartHome
             btnBackOff.Visible = true;
         }
 
+        private void AllLightsOn(object sender, EventArgs e)
+        {
+            Floor1LightsOn(sender, e);
+            Floor2LightsOn(sender, e);
+            ExteriorLightsOn(sender, e);
+        }
+        private void AllLightsOff(object sender, EventArgs e)
+        {
+            Floor1LightsOff(sender, e);
+            Floor2LightsOff(sender, e);
+            ExteriorLightsOff(sender, e);
+        }
 
-        // Dispositivos
+        private void ExteriorLightsOn(object sender, EventArgs e)
+        {
+            FrontLightOn(sender, e);
+            BackLightOn(sender, e);
+        }
+        private void ExteriorLightsOff(object sender, EventArgs e)
+        {
+            FrontLightOff(sender, e);
+            BackLightOff(sender, e);
+        }
+
+        private void Floor1LightsOn(object sender, EventArgs e)
+        {
+            KitchenLightOn(sender, e);
+            LivingLightOn(sender, e);
+            DinningLightOn(sender, e);
+            BaseLightOn(sender, e);
+        }
+        private void Floor1LightsOff(object sender, EventArgs e)
+        {
+            KitchenLightOff(sender, e);
+            LivingLightOff(sender, e);
+            DinningLightOff(sender, e);
+            BaseLightOff(sender, e);
+        }
+
+        private void Floor2LightsOn(object sender, EventArgs e)
+        {
+            BedLightOn(sender, e);
+            BathLightOn(sender, e);
+        }
+        private void Floor2LightsOff(object sender, EventArgs e)
+        {
+            BedLightOff(sender, e);
+            BathLightOff(sender, e);
+        }
+
+
+        // Control de dispositivos interiores
         private void TvOn(object sender, EventArgs e)
         {
             btnTvOn.Visible = true;
@@ -333,13 +444,13 @@ namespace RauSmartHome
 
         private void CoffeeOn(object sender, EventArgs e)
         {
-            btnCoffeOn.Visible = true;
-            btnCoffeOff.Visible = false;
+            btnCoffeeOn.Visible = true;
+            btnCoffeeOff.Visible = false;
         }
         private void CoffeeOff(object sender, EventArgs e)
         {
-            btnCoffeOn.Visible = false;
-            btnCoffeOff.Visible = true;
+            btnCoffeeOn.Visible = false;
+            btnCoffeeOff.Visible = true;
         }
 
         private void WaterOn(object sender, EventArgs e)
@@ -364,6 +475,7 @@ namespace RauSmartHome
             btnWashOff.Visible = true;
         }
 
+        // Control de cámaras
         private void CameraOn(object sender, EventArgs e)
         {
             btnCameraOn.Visible = true;
@@ -378,7 +490,21 @@ namespace RauSmartHome
             gbxCameras.Visible = false;
             gbxTasks.Visible = true;
         }
+        private void pbxFrontCamera_Click(object sender, EventArgs e)
+        {
+            Image image = cameraFrontImage;
+            Form2 form2 = new Form2(image);
+            form2.ShowDialog();
+        }
+        private void pbxBackCamera_Click(object sender, EventArgs e)
+        {
+            Image image = cameraBackImage;
+            Form2 form2 = new Form2(image);
+            form2.ShowDialog();
+        }
 
+
+        // Control de dispositivos exteriores
         private void WindOn(object sender, EventArgs e)
         {
             btnWindOn.Visible = true;
@@ -401,6 +527,18 @@ namespace RauSmartHome
             btnSprinklerOff.Visible = true;
         }
 
+        private void SolarPanelControl(object sender, EventArgs e)
+        {
+            if (lux > 20)
+            {
+                SolarOn(sender, e);
+            }
+            else
+            {
+                SolarOff(sender, e);
+            }
+        }
+
         private void SolarOn(object sender, EventArgs e)
         {
             btnSolarOn.Visible = true;
@@ -412,63 +550,6 @@ namespace RauSmartHome
             btnSolarOn.Visible = false;
             btnSolarOff.Visible = true;
         }
-
-
-        // Control de luces
-        private void AllLightsOn(object sender, EventArgs e)
-        {
-            Floor1LightsOn(sender, e);
-            Floor2LightsOn(sender, e);
-            ExteriorLightsOn(sender, e);
-        }
-
-        private void AllLightsOff(object sender, EventArgs e)
-        {
-            Floor1LightsOff(sender, e);
-            Floor2LightsOff(sender, e);
-            ExteriorLightsOff(sender, e);
-        }
-
-        private void ExteriorLightsOn(object sender, EventArgs e)
-        {
-            FrontLightOn(sender, e);
-            BackLightOn(sender, e);
-        }
-
-        private void ExteriorLightsOff(object sender, EventArgs e)
-        {
-            FrontLightOff(sender, e);
-            BackLightOff(sender, e);
-        }
-
-        private void Floor1LightsOn(object sender, EventArgs e)
-        {
-            KitchenLightOn(sender, e);
-            LivingLightOn(sender, e);
-            DinningLightOn(sender, e);
-            BaseLightOn(sender, e);
-        }
-
-        private void Floor1LightsOff(object sender, EventArgs e)
-        {
-            KitchenLightOff(sender, e);
-            LivingLightOff(sender, e);
-            DinningLightOff(sender, e);
-            BaseLightOff(sender, e);
-        }
-
-        private void Floor2LightsOn(object sender, EventArgs e)
-        {
-            BedLightOn(sender, e);
-            BathLightOn(sender, e);
-        }
-
-        private void Floor2LightsOff(object sender, EventArgs e)
-        {
-            BedLightOff(sender, e);
-            BathLightOff(sender, e);
-        }
-
 
         // Control de temperatura
         private void TaskTemperatureOn(object sender, EventArgs e)
@@ -516,7 +597,10 @@ namespace RauSmartHome
             }
             else
             {
-                ConditionerOff(sender, e);
+                if (temperature >= 17)
+                {
+                    ConditionerOff(sender, e);
+                }
             }
         }
 
@@ -543,6 +627,10 @@ namespace RauSmartHome
 
 
         // Tareas programadas
+
+        /// <summary>
+        /// Ejecuta el conjunto de tareas programadas
+        /// </summary>
         private void RunTasks(object sender, EventArgs e)
         {
             TaskWakeupProcess(sender, e);
@@ -553,19 +641,29 @@ namespace RauSmartHome
             TaskTravelProcess(sender, e);
         }
 
+        /// <summary>
+        /// Activar tarea de despertador
+        /// </summary>
         private void TaskWakeupOn(object sender, EventArgs e)
         {
             btnTaskWakeupOn.Visible = true;
             btnTaskWakeupOff.Visible = false;
             taskWakeup = true;
-            
         }
+
+        /// <summary>
+        /// Desactivar tarea de despertador
+        /// </summary>
         private void TaskWakeupOff(object sender, EventArgs e)
         {
             btnTaskWakeupOn.Visible = false;
             btnTaskWakeupOff.Visible = true;
             taskWakeup = false;
         }
+
+        /// <summary>
+        /// Tarea programada de despertador y luz de habitación.
+        /// </summary>
         private void TaskWakeupProcess(object sender, EventArgs e)
         {
             if (taskWakeup)
@@ -631,7 +729,6 @@ namespace RauSmartHome
 
                     if (prgHourOff == hours & prgMinuteOff == minutes & prgDaytimeOff == daytime)
                     {
-                        BathLightOff(sender, e);
                         WaterOff(sender, e);
                     }
                 }
@@ -664,7 +761,7 @@ namespace RauSmartHome
                     {
                         KitchenLightOn(sender, e);
                         CoffeeOn(sender, e);
-                        LivingLightOn(sender, e);
+                        DinningLightOn(sender, e);
                     }
                 }
                 if (cbxCoffeeHourOff.Text != "" & cbxCoffeeMinuteOff.Text != "" & cbxCoffeeDaytimeOff.Text != "")
@@ -677,7 +774,7 @@ namespace RauSmartHome
                     {
                         KitchenLightOff(sender, e);
                         CoffeeOff(sender, e);
-                        LivingLightOff(sender, e);
+                        DinningLightOff(sender, e);
                     }
                 }
             }
@@ -833,20 +930,6 @@ namespace RauSmartHome
                 btnWindOn.Visible = false;
                 btnWindOff.Visible = true;
             }
-        }
-
-        private void pbxFrontCamera_Click(object sender, EventArgs e)
-        {
-            Image image = cameraFrontImage;
-            Form2 form2 = new Form2(image);
-            form2.ShowDialog();
-        }
-
-        private void pbxBackCamera_Click(object sender, EventArgs e)
-        {
-            Image image = cameraBackImage;
-            Form2 form2 = new Form2(image);
-            form2.ShowDialog();
         }
     }
 }

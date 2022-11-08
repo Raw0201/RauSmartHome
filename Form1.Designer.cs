@@ -35,12 +35,8 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.cbxTemp = new System.Windows.Forms.ComboBox();
             this.lblTemp = new System.Windows.Forms.Label();
-            this.btnTaskTemperatureOff = new System.Windows.Forms.Button();
-            this.btnTaskTemperatureOn = new System.Windows.Forms.Button();
             this.lblTaskTemperature = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnTaskWakeupOff = new System.Windows.Forms.Button();
-            this.btnTaskWakeupOn = new System.Windows.Forms.Button();
             this.lblTaskWakeup = new System.Windows.Forms.Label();
             this.cbxWakeupHourOff = new System.Windows.Forms.ComboBox();
             this.cbxWakeupHourOn = new System.Windows.Forms.ComboBox();
@@ -49,8 +45,6 @@
             this.cbxWakeupMinuteOn = new System.Windows.Forms.ComboBox();
             this.cbxWakeupMinuteOff = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnTaskBathOff = new System.Windows.Forms.Button();
-            this.btnTaskBathOn = new System.Windows.Forms.Button();
             this.cbxBathHourOff = new System.Windows.Forms.ComboBox();
             this.lblTaskBath = new System.Windows.Forms.Label();
             this.cbxBathHourOn = new System.Windows.Forms.ComboBox();
@@ -59,8 +53,6 @@
             this.cbxBathMinuteOn = new System.Windows.Forms.ComboBox();
             this.cbxBathMinuteOff = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnTaskCoffeeOff = new System.Windows.Forms.Button();
-            this.btnTaskCoffeeOn = new System.Windows.Forms.Button();
             this.cbxCoffeeHourOff = new System.Windows.Forms.ComboBox();
             this.lblTaskCoffee = new System.Windows.Forms.Label();
             this.cbxCoffeeHourOn = new System.Windows.Forms.ComboBox();
@@ -69,8 +61,6 @@
             this.cbxCoffeeMinuteOn = new System.Windows.Forms.ComboBox();
             this.cbxCoffeeMinuteOff = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnTaskWateringOff = new System.Windows.Forms.Button();
-            this.btnTaskWateringOn = new System.Windows.Forms.Button();
             this.cbxWateringHourOff = new System.Windows.Forms.ComboBox();
             this.lblTaskWatering = new System.Windows.Forms.Label();
             this.cbxWateringHourOn = new System.Windows.Forms.ComboBox();
@@ -79,8 +69,6 @@
             this.cbxWateringMinuteOn = new System.Windows.Forms.ComboBox();
             this.cbxWateringMinuteOff = new System.Windows.Forms.ComboBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.btnTaskNightOff = new System.Windows.Forms.Button();
-            this.btnTaskNightOn = new System.Windows.Forms.Button();
             this.cbxNightHourOff = new System.Windows.Forms.ComboBox();
             this.lblTaskNight = new System.Windows.Forms.Label();
             this.cbxNightHourOn = new System.Windows.Forms.ComboBox();
@@ -89,8 +77,6 @@
             this.cbxNightMinuteOn = new System.Windows.Forms.ComboBox();
             this.cbxNightMinuteOff = new System.Windows.Forms.ComboBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.btnTaskTravelOff = new System.Windows.Forms.Button();
-            this.btnTaskTravelOn = new System.Windows.Forms.Button();
             this.cbxTravelHourOff = new System.Windows.Forms.ComboBox();
             this.lblTaskTravel = new System.Windows.Forms.Label();
             this.cbxTravelHourOn = new System.Windows.Forms.ComboBox();
@@ -99,31 +85,34 @@
             this.cbxTravelMinuteOn = new System.Windows.Forms.ComboBox();
             this.cbxTravelMinuteOff = new System.Windows.Forms.ComboBox();
             this.gbxCameras = new System.Windows.Forms.GroupBox();
-            this.pbxBackCamera = new System.Windows.Forms.PictureBox();
-            this.pbxFrontCamera = new System.Windows.Forms.PictureBox();
             this.lblClock = new System.Windows.Forms.Label();
             this.lblTemperature = new System.Windows.Forms.Label();
             this.lblWind = new System.Windows.Forms.Label();
             this.gbxLights = new System.Windows.Forms.GroupBox();
-            this.btnFloor1LightsOff = new System.Windows.Forms.Button();
-            this.btnFloor2LightsOff = new System.Windows.Forms.Button();
-            this.btnExteriorLightsOff = new System.Windows.Forms.Button();
             this.lblFloor2Lights = new System.Windows.Forms.Label();
-            this.btnFloor2LightsOn = new System.Windows.Forms.Button();
             this.lblExteriorLights = new System.Windows.Forms.Label();
-            this.btnFloor1LightsOn = new System.Windows.Forms.Button();
-            this.btnAllLightsOff = new System.Windows.Forms.Button();
             this.lblFloor1Lights = new System.Windows.Forms.Label();
-            this.btnExteriorLightsOn = new System.Windows.Forms.Button();
             this.lblAllLights = new System.Windows.Forms.Label();
-            this.btnAllLightsOn = new System.Windows.Forms.Button();
             this.gbxSensors = new System.Windows.Forms.GroupBox();
-            this.pbxWind = new System.Windows.Forms.PictureBox();
-            this.pbxTemperature = new System.Windows.Forms.PictureBox();
             this.toolTips = new System.Windows.Forms.ToolTip(this.components);
-            this.btnWindOff = new System.Windows.Forms.Button();
             this.btnConditionerOff = new System.Windows.Forms.Button();
             this.btnCoolingOn = new System.Windows.Forms.Button();
+            this.btnTaskTemperatureOff = new System.Windows.Forms.Button();
+            this.btnTaskTemperatureOn = new System.Windows.Forms.Button();
+            this.btnTaskWakeupOff = new System.Windows.Forms.Button();
+            this.btnTaskWakeupOn = new System.Windows.Forms.Button();
+            this.btnTaskBathOff = new System.Windows.Forms.Button();
+            this.btnTaskBathOn = new System.Windows.Forms.Button();
+            this.btnTaskCoffeeOff = new System.Windows.Forms.Button();
+            this.btnTaskCoffeeOn = new System.Windows.Forms.Button();
+            this.btnTaskWateringOff = new System.Windows.Forms.Button();
+            this.btnTaskWateringOn = new System.Windows.Forms.Button();
+            this.btnTaskNightOff = new System.Windows.Forms.Button();
+            this.btnTaskNightOn = new System.Windows.Forms.Button();
+            this.btnTaskTravelOff = new System.Windows.Forms.Button();
+            this.btnTaskTravelOn = new System.Windows.Forms.Button();
+            this.pbxBackCamera = new System.Windows.Forms.PictureBox();
+            this.pbxFrontCamera = new System.Windows.Forms.PictureBox();
             this.btnHighOff = new System.Windows.Forms.Button();
             this.btnMediumOff = new System.Windows.Forms.Button();
             this.btnLowOff = new System.Windows.Forms.Button();
@@ -141,8 +130,9 @@
             this.btnWaterOff = new System.Windows.Forms.Button();
             this.btnTvOff = new System.Windows.Forms.Button();
             this.btnSolarOff = new System.Windows.Forms.Button();
+            this.btnWindOff = new System.Windows.Forms.Button();
             this.btnCameraOff = new System.Windows.Forms.Button();
-            this.btnCoffeOff = new System.Windows.Forms.Button();
+            this.btnCoffeeOff = new System.Windows.Forms.Button();
             this.btnWashOff = new System.Windows.Forms.Button();
             this.btnSprinklerOff = new System.Windows.Forms.Button();
             this.btnBackOff = new System.Windows.Forms.Button();
@@ -157,7 +147,7 @@
             this.btnSolarOn = new System.Windows.Forms.Button();
             this.btnWindOn = new System.Windows.Forms.Button();
             this.btnCameraOn = new System.Windows.Forms.Button();
-            this.btnCoffeOn = new System.Windows.Forms.Button();
+            this.btnCoffeeOn = new System.Windows.Forms.Button();
             this.btnWaterOn = new System.Windows.Forms.Button();
             this.btnWashOn = new System.Windows.Forms.Button();
             this.btnDinningOn = new System.Windows.Forms.Button();
@@ -166,7 +156,19 @@
             this.btnBedOn = new System.Windows.Forms.Button();
             this.pbxMoon = new System.Windows.Forms.PictureBox();
             this.pbxSun = new System.Windows.Forms.PictureBox();
+            this.pbxLux = new System.Windows.Forms.PictureBox();
+            this.pbxWind = new System.Windows.Forms.PictureBox();
+            this.pbxTemperature = new System.Windows.Forms.PictureBox();
+            this.btnFloor1LightsOff = new System.Windows.Forms.Button();
+            this.btnFloor2LightsOff = new System.Windows.Forms.Button();
+            this.btnExteriorLightsOff = new System.Windows.Forms.Button();
+            this.btnFloor2LightsOn = new System.Windows.Forms.Button();
+            this.btnFloor1LightsOn = new System.Windows.Forms.Button();
+            this.btnAllLightsOff = new System.Windows.Forms.Button();
+            this.btnExteriorLightsOn = new System.Windows.Forms.Button();
+            this.btnAllLightsOn = new System.Windows.Forms.Button();
             this.pbxHouse = new System.Windows.Forms.PictureBox();
+            this.lblLux = new System.Windows.Forms.Label();
             this.gbxTasks.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -176,14 +178,15 @@
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.gbxCameras.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxBackCamera)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxFrontCamera)).BeginInit();
             this.gbxLights.SuspendLayout();
             this.gbxSensors.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxWind)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxTemperature)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxBackCamera)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFrontCamera)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMoon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxSun)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxLux)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxWind)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTemperature)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxHouse)).BeginInit();
             this.SuspendLayout();
             // 
@@ -268,32 +271,6 @@
             this.lblTemp.TabIndex = 8;
             this.lblTemp.Text = "°C";
             // 
-            // btnTaskTemperatureOff
-            // 
-            this.btnTaskTemperatureOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskTemperatureOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskTemperatureOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskTemperatureOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskTemperatureOff.Name = "btnTaskTemperatureOff";
-            this.btnTaskTemperatureOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskTemperatureOff.TabIndex = 0;
-            this.btnTaskTemperatureOff.TabStop = false;
-            this.btnTaskTemperatureOff.UseVisualStyleBackColor = false;
-            this.btnTaskTemperatureOff.Click += new System.EventHandler(this.TaskTemperatureOn);
-            // 
-            // btnTaskTemperatureOn
-            // 
-            this.btnTaskTemperatureOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskTemperatureOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskTemperatureOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskTemperatureOn.Name = "btnTaskTemperatureOn";
-            this.btnTaskTemperatureOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskTemperatureOn.TabIndex = 7;
-            this.btnTaskTemperatureOn.TabStop = false;
-            this.btnTaskTemperatureOn.UseVisualStyleBackColor = false;
-            this.btnTaskTemperatureOn.Visible = false;
-            this.btnTaskTemperatureOn.Click += new System.EventHandler(this.TaskTemperatureOff);
-            // 
             // lblTaskTemperature
             // 
             this.lblTaskTemperature.AutoSize = true;
@@ -320,32 +297,6 @@
             this.groupBox1.Size = new System.Drawing.Size(244, 59);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            // 
-            // btnTaskWakeupOff
-            // 
-            this.btnTaskWakeupOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskWakeupOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskWakeupOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskWakeupOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskWakeupOff.Name = "btnTaskWakeupOff";
-            this.btnTaskWakeupOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskWakeupOff.TabIndex = 0;
-            this.btnTaskWakeupOff.TabStop = false;
-            this.btnTaskWakeupOff.UseVisualStyleBackColor = false;
-            this.btnTaskWakeupOff.Click += new System.EventHandler(this.TaskWakeupOn);
-            // 
-            // btnTaskWakeupOn
-            // 
-            this.btnTaskWakeupOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskWakeupOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskWakeupOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskWakeupOn.Name = "btnTaskWakeupOn";
-            this.btnTaskWakeupOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskWakeupOn.TabIndex = 7;
-            this.btnTaskWakeupOn.TabStop = false;
-            this.btnTaskWakeupOn.UseVisualStyleBackColor = false;
-            this.btnTaskWakeupOn.Visible = false;
-            this.btnTaskWakeupOn.Click += new System.EventHandler(this.TaskWakeupOff);
             // 
             // lblTaskWakeup
             // 
@@ -382,7 +333,7 @@
             this.cbxWakeupHourOff.Name = "cbxWakeupHourOff";
             this.cbxWakeupHourOff.Size = new System.Drawing.Size(40, 21);
             this.cbxWakeupHourOff.TabIndex = 4;
-            this.cbxWakeupHourOff.Text = "05";
+            this.cbxWakeupHourOff.Text = "04";
             // 
             // cbxWakeupHourOn
             // 
@@ -591,7 +542,7 @@
             this.cbxWakeupMinuteOff.Name = "cbxWakeupMinuteOff";
             this.cbxWakeupMinuteOff.Size = new System.Drawing.Size(40, 21);
             this.cbxWakeupMinuteOff.TabIndex = 5;
-            this.cbxWakeupMinuteOff.Text = "30";
+            this.cbxWakeupMinuteOff.Text = "45";
             // 
             // groupBox2
             // 
@@ -609,32 +560,6 @@
             this.groupBox2.Size = new System.Drawing.Size(244, 59);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            // 
-            // btnTaskBathOff
-            // 
-            this.btnTaskBathOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskBathOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskBathOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskBathOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskBathOff.Name = "btnTaskBathOff";
-            this.btnTaskBathOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskBathOff.TabIndex = 0;
-            this.btnTaskBathOff.TabStop = false;
-            this.btnTaskBathOff.UseVisualStyleBackColor = false;
-            this.btnTaskBathOff.Click += new System.EventHandler(this.TaskBathOn);
-            // 
-            // btnTaskBathOn
-            // 
-            this.btnTaskBathOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskBathOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskBathOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskBathOn.Name = "btnTaskBathOn";
-            this.btnTaskBathOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskBathOn.TabIndex = 7;
-            this.btnTaskBathOn.TabStop = false;
-            this.btnTaskBathOn.UseVisualStyleBackColor = false;
-            this.btnTaskBathOn.Visible = false;
-            this.btnTaskBathOn.Click += new System.EventHandler(this.TaskBathOff);
             // 
             // cbxBathHourOff
             // 
@@ -899,32 +824,6 @@
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             // 
-            // btnTaskCoffeeOff
-            // 
-            this.btnTaskCoffeeOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskCoffeeOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskCoffeeOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskCoffeeOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskCoffeeOff.Name = "btnTaskCoffeeOff";
-            this.btnTaskCoffeeOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskCoffeeOff.TabIndex = 0;
-            this.btnTaskCoffeeOff.TabStop = false;
-            this.btnTaskCoffeeOff.UseVisualStyleBackColor = false;
-            this.btnTaskCoffeeOff.Click += new System.EventHandler(this.TaskCoffeeOn);
-            // 
-            // btnTaskCoffeeOn
-            // 
-            this.btnTaskCoffeeOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskCoffeeOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskCoffeeOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskCoffeeOn.Name = "btnTaskCoffeeOn";
-            this.btnTaskCoffeeOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskCoffeeOn.TabIndex = 7;
-            this.btnTaskCoffeeOn.TabStop = false;
-            this.btnTaskCoffeeOn.UseVisualStyleBackColor = false;
-            this.btnTaskCoffeeOn.Visible = false;
-            this.btnTaskCoffeeOn.Click += new System.EventHandler(this.TaskCoffeeOff);
-            // 
             // cbxCoffeeHourOff
             // 
             this.cbxCoffeeHourOff.BackColor = System.Drawing.Color.Gray;
@@ -1187,32 +1086,6 @@
             this.groupBox4.Size = new System.Drawing.Size(244, 59);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
-            // 
-            // btnTaskWateringOff
-            // 
-            this.btnTaskWateringOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskWateringOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskWateringOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskWateringOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskWateringOff.Name = "btnTaskWateringOff";
-            this.btnTaskWateringOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskWateringOff.TabIndex = 0;
-            this.btnTaskWateringOff.TabStop = false;
-            this.btnTaskWateringOff.UseVisualStyleBackColor = false;
-            this.btnTaskWateringOff.Click += new System.EventHandler(this.TaskWateringOn);
-            // 
-            // btnTaskWateringOn
-            // 
-            this.btnTaskWateringOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskWateringOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskWateringOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskWateringOn.Name = "btnTaskWateringOn";
-            this.btnTaskWateringOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskWateringOn.TabIndex = 7;
-            this.btnTaskWateringOn.TabStop = false;
-            this.btnTaskWateringOn.UseVisualStyleBackColor = false;
-            this.btnTaskWateringOn.Visible = false;
-            this.btnTaskWateringOn.Click += new System.EventHandler(this.TaskWateringOff);
             // 
             // cbxWateringHourOff
             // 
@@ -1477,32 +1350,6 @@
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             // 
-            // btnTaskNightOff
-            // 
-            this.btnTaskNightOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskNightOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskNightOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskNightOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskNightOff.Name = "btnTaskNightOff";
-            this.btnTaskNightOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskNightOff.TabIndex = 0;
-            this.btnTaskNightOff.TabStop = false;
-            this.btnTaskNightOff.UseVisualStyleBackColor = false;
-            this.btnTaskNightOff.Click += new System.EventHandler(this.TaskNightOn);
-            // 
-            // btnTaskNightOn
-            // 
-            this.btnTaskNightOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskNightOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskNightOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskNightOn.Name = "btnTaskNightOn";
-            this.btnTaskNightOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskNightOn.TabIndex = 7;
-            this.btnTaskNightOn.TabStop = false;
-            this.btnTaskNightOn.UseVisualStyleBackColor = false;
-            this.btnTaskNightOn.Visible = false;
-            this.btnTaskNightOn.Click += new System.EventHandler(this.TaskNightOff);
-            // 
             // cbxNightHourOff
             // 
             this.cbxNightHourOff.BackColor = System.Drawing.Color.Gray;
@@ -1766,32 +1613,6 @@
             this.groupBox7.TabIndex = 6;
             this.groupBox7.TabStop = false;
             // 
-            // btnTaskTravelOff
-            // 
-            this.btnTaskTravelOff.BackColor = System.Drawing.Color.Gray;
-            this.btnTaskTravelOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
-            this.btnTaskTravelOff.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskTravelOff.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTaskTravelOff.Name = "btnTaskTravelOff";
-            this.btnTaskTravelOff.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskTravelOff.TabIndex = 0;
-            this.btnTaskTravelOff.TabStop = false;
-            this.btnTaskTravelOff.UseVisualStyleBackColor = false;
-            this.btnTaskTravelOff.Click += new System.EventHandler(this.TaskTravelOn);
-            // 
-            // btnTaskTravelOn
-            // 
-            this.btnTaskTravelOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTaskTravelOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
-            this.btnTaskTravelOn.Location = new System.Drawing.Point(1, 10);
-            this.btnTaskTravelOn.Name = "btnTaskTravelOn";
-            this.btnTaskTravelOn.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskTravelOn.TabIndex = 7;
-            this.btnTaskTravelOn.TabStop = false;
-            this.btnTaskTravelOn.UseVisualStyleBackColor = false;
-            this.btnTaskTravelOn.Visible = false;
-            this.btnTaskTravelOn.Click += new System.EventHandler(this.TaskTravelOff);
-            // 
             // cbxTravelHourOff
             // 
             this.cbxTravelHourOff.BackColor = System.Drawing.Color.Gray;
@@ -2052,29 +1873,6 @@
             this.gbxCameras.Text = "Cámaras de seguridad";
             this.gbxCameras.Visible = false;
             // 
-            // pbxBackCamera
-            // 
-            this.pbxBackCamera.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxBackCamera.Image = global::RauSmartHome.Properties.Resources.cameraBackNight;
-            this.pbxBackCamera.Location = new System.Drawing.Point(4, 217);
-            this.pbxBackCamera.Name = "pbxBackCamera";
-            this.pbxBackCamera.Size = new System.Drawing.Size(240, 180);
-            this.pbxBackCamera.TabIndex = 0;
-            this.pbxBackCamera.TabStop = false;
-            this.pbxBackCamera.Click += new System.EventHandler(this.pbxBackCamera_Click);
-            // 
-            // pbxFrontCamera
-            // 
-            this.pbxFrontCamera.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxFrontCamera.Image = global::RauSmartHome.Properties.Resources.cameraFrontNight;
-            this.pbxFrontCamera.Location = new System.Drawing.Point(4, 33);
-            this.pbxFrontCamera.Name = "pbxFrontCamera";
-            this.pbxFrontCamera.Size = new System.Drawing.Size(240, 180);
-            this.pbxFrontCamera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxFrontCamera.TabIndex = 0;
-            this.pbxFrontCamera.TabStop = false;
-            this.pbxFrontCamera.Click += new System.EventHandler(this.pbxFrontCamera_Click);
-            // 
             // lblClock
             // 
             this.lblClock.AutoSize = true;
@@ -2089,7 +1887,7 @@
             // 
             this.lblTemperature.AutoSize = true;
             this.lblTemperature.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemperature.Location = new System.Drawing.Point(53, 34);
+            this.lblTemperature.Location = new System.Drawing.Point(4, 63);
             this.lblTemperature.Name = "lblTemperature";
             this.lblTemperature.Size = new System.Drawing.Size(50, 22);
             this.lblTemperature.TabIndex = 8;
@@ -2099,11 +1897,11 @@
             // 
             this.lblWind.AutoSize = true;
             this.lblWind.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWind.Location = new System.Drawing.Point(164, 34);
+            this.lblWind.Location = new System.Drawing.Point(91, 63);
             this.lblWind.Name = "lblWind";
-            this.lblWind.Size = new System.Drawing.Size(60, 22);
+            this.lblWind.Size = new System.Drawing.Size(70, 22);
             this.lblWind.TabIndex = 8;
-            this.lblWind.Text = "0Km/h";
+            this.lblWind.Text = "15Km/h";
             // 
             // gbxLights
             // 
@@ -2121,48 +1919,12 @@
             this.gbxLights.Controls.Add(this.lblAllLights);
             this.gbxLights.Controls.Add(this.btnAllLightsOn);
             this.gbxLights.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxLights.Location = new System.Drawing.Point(745, 186);
+            this.gbxLights.Location = new System.Drawing.Point(745, 201);
             this.gbxLights.Name = "gbxLights";
             this.gbxLights.Size = new System.Drawing.Size(248, 108);
             this.gbxLights.TabIndex = 1;
             this.gbxLights.TabStop = false;
             this.gbxLights.Text = "Control de luces";
-            // 
-            // btnFloor1LightsOff
-            // 
-            this.btnFloor1LightsOff.BackColor = System.Drawing.Color.Gray;
-            this.btnFloor1LightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
-            this.btnFloor1LightsOff.Location = new System.Drawing.Point(33, 70);
-            this.btnFloor1LightsOff.Name = "btnFloor1LightsOff";
-            this.btnFloor1LightsOff.Size = new System.Drawing.Size(32, 32);
-            this.btnFloor1LightsOff.TabIndex = 7;
-            this.btnFloor1LightsOff.TabStop = false;
-            this.btnFloor1LightsOff.UseVisualStyleBackColor = false;
-            this.btnFloor1LightsOff.Click += new System.EventHandler(this.Floor1LightsOff);
-            // 
-            // btnFloor2LightsOff
-            // 
-            this.btnFloor2LightsOff.BackColor = System.Drawing.Color.Gray;
-            this.btnFloor2LightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
-            this.btnFloor2LightsOff.Location = new System.Drawing.Point(157, 70);
-            this.btnFloor2LightsOff.Name = "btnFloor2LightsOff";
-            this.btnFloor2LightsOff.Size = new System.Drawing.Size(32, 32);
-            this.btnFloor2LightsOff.TabIndex = 7;
-            this.btnFloor2LightsOff.TabStop = false;
-            this.btnFloor2LightsOff.UseVisualStyleBackColor = false;
-            this.btnFloor2LightsOff.Click += new System.EventHandler(this.Floor2LightsOff);
-            // 
-            // btnExteriorLightsOff
-            // 
-            this.btnExteriorLightsOff.BackColor = System.Drawing.Color.Gray;
-            this.btnExteriorLightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
-            this.btnExteriorLightsOff.Location = new System.Drawing.Point(157, 27);
-            this.btnExteriorLightsOff.Name = "btnExteriorLightsOff";
-            this.btnExteriorLightsOff.Size = new System.Drawing.Size(32, 32);
-            this.btnExteriorLightsOff.TabIndex = 7;
-            this.btnExteriorLightsOff.TabStop = false;
-            this.btnExteriorLightsOff.UseVisualStyleBackColor = false;
-            this.btnExteriorLightsOff.Click += new System.EventHandler(this.ExteriorLightsOff);
             // 
             // lblFloor2Lights
             // 
@@ -2174,18 +1936,6 @@
             this.lblFloor2Lights.TabIndex = 0;
             this.lblFloor2Lights.Text = "Piso 2";
             // 
-            // btnFloor2LightsOn
-            // 
-            this.btnFloor2LightsOn.BackColor = System.Drawing.Color.Yellow;
-            this.btnFloor2LightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
-            this.btnFloor2LightsOn.Location = new System.Drawing.Point(126, 70);
-            this.btnFloor2LightsOn.Name = "btnFloor2LightsOn";
-            this.btnFloor2LightsOn.Size = new System.Drawing.Size(32, 32);
-            this.btnFloor2LightsOn.TabIndex = 7;
-            this.btnFloor2LightsOn.TabStop = false;
-            this.btnFloor2LightsOn.UseVisualStyleBackColor = false;
-            this.btnFloor2LightsOn.Click += new System.EventHandler(this.Floor2LightsOn);
-            // 
             // lblExteriorLights
             // 
             this.lblExteriorLights.AutoSize = true;
@@ -2195,30 +1945,6 @@
             this.lblExteriorLights.Size = new System.Drawing.Size(60, 16);
             this.lblExteriorLights.TabIndex = 0;
             this.lblExteriorLights.Text = "Exterior";
-            // 
-            // btnFloor1LightsOn
-            // 
-            this.btnFloor1LightsOn.BackColor = System.Drawing.Color.Yellow;
-            this.btnFloor1LightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
-            this.btnFloor1LightsOn.Location = new System.Drawing.Point(2, 70);
-            this.btnFloor1LightsOn.Name = "btnFloor1LightsOn";
-            this.btnFloor1LightsOn.Size = new System.Drawing.Size(32, 32);
-            this.btnFloor1LightsOn.TabIndex = 7;
-            this.btnFloor1LightsOn.TabStop = false;
-            this.btnFloor1LightsOn.UseVisualStyleBackColor = false;
-            this.btnFloor1LightsOn.Click += new System.EventHandler(this.Floor1LightsOn);
-            // 
-            // btnAllLightsOff
-            // 
-            this.btnAllLightsOff.BackColor = System.Drawing.Color.Gray;
-            this.btnAllLightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
-            this.btnAllLightsOff.Location = new System.Drawing.Point(33, 27);
-            this.btnAllLightsOff.Name = "btnAllLightsOff";
-            this.btnAllLightsOff.Size = new System.Drawing.Size(32, 32);
-            this.btnAllLightsOff.TabIndex = 7;
-            this.btnAllLightsOff.TabStop = false;
-            this.btnAllLightsOff.UseVisualStyleBackColor = false;
-            this.btnAllLightsOff.Click += new System.EventHandler(this.AllLightsOff);
             // 
             // lblFloor1Lights
             // 
@@ -2230,18 +1956,6 @@
             this.lblFloor1Lights.TabIndex = 0;
             this.lblFloor1Lights.Text = "Piso 1";
             // 
-            // btnExteriorLightsOn
-            // 
-            this.btnExteriorLightsOn.BackColor = System.Drawing.Color.Yellow;
-            this.btnExteriorLightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
-            this.btnExteriorLightsOn.Location = new System.Drawing.Point(126, 27);
-            this.btnExteriorLightsOn.Name = "btnExteriorLightsOn";
-            this.btnExteriorLightsOn.Size = new System.Drawing.Size(32, 32);
-            this.btnExteriorLightsOn.TabIndex = 7;
-            this.btnExteriorLightsOn.TabStop = false;
-            this.btnExteriorLightsOn.UseVisualStyleBackColor = false;
-            this.btnExteriorLightsOn.Click += new System.EventHandler(this.ExteriorLightsOn);
-            // 
             // lblAllLights
             // 
             this.lblAllLights.AutoSize = true;
@@ -2252,65 +1966,22 @@
             this.lblAllLights.TabIndex = 0;
             this.lblAllLights.Text = "Todas";
             // 
-            // btnAllLightsOn
-            // 
-            this.btnAllLightsOn.BackColor = System.Drawing.Color.Yellow;
-            this.btnAllLightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
-            this.btnAllLightsOn.Location = new System.Drawing.Point(2, 27);
-            this.btnAllLightsOn.Name = "btnAllLightsOn";
-            this.btnAllLightsOn.Size = new System.Drawing.Size(32, 32);
-            this.btnAllLightsOn.TabIndex = 7;
-            this.btnAllLightsOn.TabStop = false;
-            this.btnAllLightsOn.UseVisualStyleBackColor = false;
-            this.btnAllLightsOn.Click += new System.EventHandler(this.AllLightsOn);
-            // 
             // gbxSensors
             // 
             this.gbxSensors.BackColor = System.Drawing.SystemColors.Control;
+            this.gbxSensors.Controls.Add(this.lblLux);
             this.gbxSensors.Controls.Add(this.lblWind);
+            this.gbxSensors.Controls.Add(this.pbxLux);
             this.gbxSensors.Controls.Add(this.pbxWind);
             this.gbxSensors.Controls.Add(this.pbxTemperature);
             this.gbxSensors.Controls.Add(this.lblTemperature);
             this.gbxSensors.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxSensors.Location = new System.Drawing.Point(745, 112);
+            this.gbxSensors.Location = new System.Drawing.Point(745, 107);
             this.gbxSensors.Name = "gbxSensors";
-            this.gbxSensors.Size = new System.Drawing.Size(248, 68);
+            this.gbxSensors.Size = new System.Drawing.Size(248, 88);
             this.gbxSensors.TabIndex = 1;
             this.gbxSensors.TabStop = false;
             this.gbxSensors.Text = "Sensores externos";
-            // 
-            // pbxWind
-            // 
-            this.pbxWind.Image = global::RauSmartHome.Properties.Resources.wind;
-            this.pbxWind.Location = new System.Drawing.Point(128, 30);
-            this.pbxWind.Name = "pbxWind";
-            this.pbxWind.Size = new System.Drawing.Size(30, 30);
-            this.pbxWind.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxWind.TabIndex = 7;
-            this.pbxWind.TabStop = false;
-            // 
-            // pbxTemperature
-            // 
-            this.pbxTemperature.Image = global::RauSmartHome.Properties.Resources.temperature;
-            this.pbxTemperature.Location = new System.Drawing.Point(17, 30);
-            this.pbxTemperature.Name = "pbxTemperature";
-            this.pbxTemperature.Size = new System.Drawing.Size(30, 30);
-            this.pbxTemperature.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxTemperature.TabIndex = 7;
-            this.pbxTemperature.TabStop = false;
-            // 
-            // btnWindOff
-            // 
-            this.btnWindOff.BackColor = System.Drawing.Color.Gray;
-            this.btnWindOff.Image = global::RauSmartHome.Properties.Resources.windOff;
-            this.btnWindOff.Location = new System.Drawing.Point(535, 128);
-            this.btnWindOff.Name = "btnWindOff";
-            this.btnWindOff.Size = new System.Drawing.Size(40, 40);
-            this.btnWindOff.TabIndex = 7;
-            this.btnWindOff.TabStop = false;
-            this.toolTips.SetToolTip(this.btnWindOff, "Velocidad de operación:\r\n         20 - 80Km/h");
-            this.btnWindOff.UseVisualStyleBackColor = false;
-            this.btnWindOff.Click += new System.EventHandler(this.WindOn);
             // 
             // btnConditionerOff
             // 
@@ -2334,6 +2005,211 @@
             this.btnCoolingOn.TabStop = false;
             this.btnCoolingOn.UseVisualStyleBackColor = false;
             this.btnCoolingOn.Visible = false;
+            // 
+            // btnTaskTemperatureOff
+            // 
+            this.btnTaskTemperatureOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskTemperatureOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskTemperatureOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskTemperatureOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskTemperatureOff.Name = "btnTaskTemperatureOff";
+            this.btnTaskTemperatureOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskTemperatureOff.TabIndex = 0;
+            this.btnTaskTemperatureOff.TabStop = false;
+            this.btnTaskTemperatureOff.UseVisualStyleBackColor = false;
+            this.btnTaskTemperatureOff.Click += new System.EventHandler(this.TaskTemperatureOn);
+            // 
+            // btnTaskTemperatureOn
+            // 
+            this.btnTaskTemperatureOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskTemperatureOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskTemperatureOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskTemperatureOn.Name = "btnTaskTemperatureOn";
+            this.btnTaskTemperatureOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskTemperatureOn.TabIndex = 7;
+            this.btnTaskTemperatureOn.TabStop = false;
+            this.btnTaskTemperatureOn.UseVisualStyleBackColor = false;
+            this.btnTaskTemperatureOn.Visible = false;
+            this.btnTaskTemperatureOn.Click += new System.EventHandler(this.TaskTemperatureOff);
+            // 
+            // btnTaskWakeupOff
+            // 
+            this.btnTaskWakeupOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskWakeupOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskWakeupOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskWakeupOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskWakeupOff.Name = "btnTaskWakeupOff";
+            this.btnTaskWakeupOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskWakeupOff.TabIndex = 0;
+            this.btnTaskWakeupOff.TabStop = false;
+            this.btnTaskWakeupOff.UseVisualStyleBackColor = false;
+            this.btnTaskWakeupOff.Click += new System.EventHandler(this.TaskWakeupOn);
+            // 
+            // btnTaskWakeupOn
+            // 
+            this.btnTaskWakeupOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskWakeupOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskWakeupOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskWakeupOn.Name = "btnTaskWakeupOn";
+            this.btnTaskWakeupOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskWakeupOn.TabIndex = 7;
+            this.btnTaskWakeupOn.TabStop = false;
+            this.btnTaskWakeupOn.UseVisualStyleBackColor = false;
+            this.btnTaskWakeupOn.Visible = false;
+            this.btnTaskWakeupOn.Click += new System.EventHandler(this.TaskWakeupOff);
+            // 
+            // btnTaskBathOff
+            // 
+            this.btnTaskBathOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskBathOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskBathOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskBathOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskBathOff.Name = "btnTaskBathOff";
+            this.btnTaskBathOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskBathOff.TabIndex = 0;
+            this.btnTaskBathOff.TabStop = false;
+            this.btnTaskBathOff.UseVisualStyleBackColor = false;
+            this.btnTaskBathOff.Click += new System.EventHandler(this.TaskBathOn);
+            // 
+            // btnTaskBathOn
+            // 
+            this.btnTaskBathOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskBathOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskBathOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskBathOn.Name = "btnTaskBathOn";
+            this.btnTaskBathOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskBathOn.TabIndex = 7;
+            this.btnTaskBathOn.TabStop = false;
+            this.btnTaskBathOn.UseVisualStyleBackColor = false;
+            this.btnTaskBathOn.Visible = false;
+            this.btnTaskBathOn.Click += new System.EventHandler(this.TaskBathOff);
+            // 
+            // btnTaskCoffeeOff
+            // 
+            this.btnTaskCoffeeOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskCoffeeOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskCoffeeOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskCoffeeOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskCoffeeOff.Name = "btnTaskCoffeeOff";
+            this.btnTaskCoffeeOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskCoffeeOff.TabIndex = 0;
+            this.btnTaskCoffeeOff.TabStop = false;
+            this.btnTaskCoffeeOff.UseVisualStyleBackColor = false;
+            this.btnTaskCoffeeOff.Click += new System.EventHandler(this.TaskCoffeeOn);
+            // 
+            // btnTaskCoffeeOn
+            // 
+            this.btnTaskCoffeeOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskCoffeeOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskCoffeeOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskCoffeeOn.Name = "btnTaskCoffeeOn";
+            this.btnTaskCoffeeOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskCoffeeOn.TabIndex = 7;
+            this.btnTaskCoffeeOn.TabStop = false;
+            this.btnTaskCoffeeOn.UseVisualStyleBackColor = false;
+            this.btnTaskCoffeeOn.Visible = false;
+            this.btnTaskCoffeeOn.Click += new System.EventHandler(this.TaskCoffeeOff);
+            // 
+            // btnTaskWateringOff
+            // 
+            this.btnTaskWateringOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskWateringOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskWateringOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskWateringOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskWateringOff.Name = "btnTaskWateringOff";
+            this.btnTaskWateringOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskWateringOff.TabIndex = 0;
+            this.btnTaskWateringOff.TabStop = false;
+            this.btnTaskWateringOff.UseVisualStyleBackColor = false;
+            this.btnTaskWateringOff.Click += new System.EventHandler(this.TaskWateringOn);
+            // 
+            // btnTaskWateringOn
+            // 
+            this.btnTaskWateringOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskWateringOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskWateringOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskWateringOn.Name = "btnTaskWateringOn";
+            this.btnTaskWateringOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskWateringOn.TabIndex = 7;
+            this.btnTaskWateringOn.TabStop = false;
+            this.btnTaskWateringOn.UseVisualStyleBackColor = false;
+            this.btnTaskWateringOn.Visible = false;
+            this.btnTaskWateringOn.Click += new System.EventHandler(this.TaskWateringOff);
+            // 
+            // btnTaskNightOff
+            // 
+            this.btnTaskNightOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskNightOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskNightOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskNightOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskNightOff.Name = "btnTaskNightOff";
+            this.btnTaskNightOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskNightOff.TabIndex = 0;
+            this.btnTaskNightOff.TabStop = false;
+            this.btnTaskNightOff.UseVisualStyleBackColor = false;
+            this.btnTaskNightOff.Click += new System.EventHandler(this.TaskNightOn);
+            // 
+            // btnTaskNightOn
+            // 
+            this.btnTaskNightOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskNightOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskNightOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskNightOn.Name = "btnTaskNightOn";
+            this.btnTaskNightOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskNightOn.TabIndex = 7;
+            this.btnTaskNightOn.TabStop = false;
+            this.btnTaskNightOn.UseVisualStyleBackColor = false;
+            this.btnTaskNightOn.Visible = false;
+            this.btnTaskNightOn.Click += new System.EventHandler(this.TaskNightOff);
+            // 
+            // btnTaskTravelOff
+            // 
+            this.btnTaskTravelOff.BackColor = System.Drawing.Color.Gray;
+            this.btnTaskTravelOff.Image = global::RauSmartHome.Properties.Resources.buttonOff;
+            this.btnTaskTravelOff.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskTravelOff.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTaskTravelOff.Name = "btnTaskTravelOff";
+            this.btnTaskTravelOff.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskTravelOff.TabIndex = 0;
+            this.btnTaskTravelOff.TabStop = false;
+            this.btnTaskTravelOff.UseVisualStyleBackColor = false;
+            this.btnTaskTravelOff.Click += new System.EventHandler(this.TaskTravelOn);
+            // 
+            // btnTaskTravelOn
+            // 
+            this.btnTaskTravelOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTaskTravelOn.Image = global::RauSmartHome.Properties.Resources.buttonOn;
+            this.btnTaskTravelOn.Location = new System.Drawing.Point(1, 10);
+            this.btnTaskTravelOn.Name = "btnTaskTravelOn";
+            this.btnTaskTravelOn.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskTravelOn.TabIndex = 7;
+            this.btnTaskTravelOn.TabStop = false;
+            this.btnTaskTravelOn.UseVisualStyleBackColor = false;
+            this.btnTaskTravelOn.Visible = false;
+            this.btnTaskTravelOn.Click += new System.EventHandler(this.TaskTravelOff);
+            // 
+            // pbxBackCamera
+            // 
+            this.pbxBackCamera.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbxBackCamera.Image = global::RauSmartHome.Properties.Resources.cameraBackNight;
+            this.pbxBackCamera.Location = new System.Drawing.Point(4, 217);
+            this.pbxBackCamera.Name = "pbxBackCamera";
+            this.pbxBackCamera.Size = new System.Drawing.Size(240, 180);
+            this.pbxBackCamera.TabIndex = 0;
+            this.pbxBackCamera.TabStop = false;
+            this.pbxBackCamera.Click += new System.EventHandler(this.pbxBackCamera_Click);
+            // 
+            // pbxFrontCamera
+            // 
+            this.pbxFrontCamera.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbxFrontCamera.Image = global::RauSmartHome.Properties.Resources.cameraFrontNight;
+            this.pbxFrontCamera.Location = new System.Drawing.Point(4, 33);
+            this.pbxFrontCamera.Name = "pbxFrontCamera";
+            this.pbxFrontCamera.Size = new System.Drawing.Size(240, 180);
+            this.pbxFrontCamera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxFrontCamera.TabIndex = 0;
+            this.pbxFrontCamera.TabStop = false;
+            this.pbxFrontCamera.Click += new System.EventHandler(this.pbxFrontCamera_Click);
             // 
             // btnHighOff
             // 
@@ -2532,8 +2408,22 @@
             this.btnSolarOff.Size = new System.Drawing.Size(40, 40);
             this.btnSolarOff.TabIndex = 7;
             this.btnSolarOff.TabStop = false;
+            this.toolTips.SetToolTip(this.btnSolarOff, "Luminosidad mínima \r\nrequerida:    20K lux\r\n\r\n");
             this.btnSolarOff.UseVisualStyleBackColor = false;
             this.btnSolarOff.Click += new System.EventHandler(this.WashOn);
+            // 
+            // btnWindOff
+            // 
+            this.btnWindOff.BackColor = System.Drawing.Color.Gray;
+            this.btnWindOff.Image = global::RauSmartHome.Properties.Resources.windOff;
+            this.btnWindOff.Location = new System.Drawing.Point(535, 128);
+            this.btnWindOff.Name = "btnWindOff";
+            this.btnWindOff.Size = new System.Drawing.Size(40, 40);
+            this.btnWindOff.TabIndex = 7;
+            this.btnWindOff.TabStop = false;
+            this.toolTips.SetToolTip(this.btnWindOff, "Velocidad de operación:\r\n         20 - 80Km/h");
+            this.btnWindOff.UseVisualStyleBackColor = false;
+            this.btnWindOff.Click += new System.EventHandler(this.WindOn);
             // 
             // btnCameraOff
             // 
@@ -2547,17 +2437,17 @@
             this.btnCameraOff.UseVisualStyleBackColor = false;
             this.btnCameraOff.Click += new System.EventHandler(this.CameraOn);
             // 
-            // btnCoffeOff
+            // btnCoffeeOff
             // 
-            this.btnCoffeOff.BackColor = System.Drawing.Color.Gray;
-            this.btnCoffeOff.Image = global::RauSmartHome.Properties.Resources.coffeeOff;
-            this.btnCoffeOff.Location = new System.Drawing.Point(505, 405);
-            this.btnCoffeOff.Name = "btnCoffeOff";
-            this.btnCoffeOff.Size = new System.Drawing.Size(40, 40);
-            this.btnCoffeOff.TabIndex = 7;
-            this.btnCoffeOff.TabStop = false;
-            this.btnCoffeOff.UseVisualStyleBackColor = false;
-            this.btnCoffeOff.Click += new System.EventHandler(this.CoffeeOn);
+            this.btnCoffeeOff.BackColor = System.Drawing.Color.Gray;
+            this.btnCoffeeOff.Image = global::RauSmartHome.Properties.Resources.coffeeOff;
+            this.btnCoffeeOff.Location = new System.Drawing.Point(505, 405);
+            this.btnCoffeeOff.Name = "btnCoffeeOff";
+            this.btnCoffeeOff.Size = new System.Drawing.Size(40, 40);
+            this.btnCoffeeOff.TabIndex = 7;
+            this.btnCoffeeOff.TabStop = false;
+            this.btnCoffeeOff.UseVisualStyleBackColor = false;
+            this.btnCoffeeOff.Click += new System.EventHandler(this.CoffeeOn);
             // 
             // btnWashOff
             // 
@@ -2706,6 +2596,7 @@
             this.btnSolarOn.Size = new System.Drawing.Size(40, 40);
             this.btnSolarOn.TabIndex = 7;
             this.btnSolarOn.TabStop = false;
+            this.toolTips.SetToolTip(this.btnSolarOn, "Luminosidad mínima \r\nrequerida:    20K lux\r\n");
             this.btnSolarOn.UseVisualStyleBackColor = false;
             this.btnSolarOn.Visible = false;
             this.btnSolarOn.Click += new System.EventHandler(this.WashOff);
@@ -2719,6 +2610,7 @@
             this.btnWindOn.Size = new System.Drawing.Size(40, 40);
             this.btnWindOn.TabIndex = 7;
             this.btnWindOn.TabStop = false;
+            this.toolTips.SetToolTip(this.btnWindOn, "Velocidad de operación:\r\n         20 - 80Km/h\r\n");
             this.btnWindOn.UseVisualStyleBackColor = false;
             this.btnWindOn.Visible = false;
             this.btnWindOn.Click += new System.EventHandler(this.WindOff);
@@ -2736,18 +2628,18 @@
             this.btnCameraOn.Visible = false;
             this.btnCameraOn.Click += new System.EventHandler(this.CameraOff);
             // 
-            // btnCoffeOn
+            // btnCoffeeOn
             // 
-            this.btnCoffeOn.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnCoffeOn.Image = global::RauSmartHome.Properties.Resources.coffeeOn;
-            this.btnCoffeOn.Location = new System.Drawing.Point(505, 405);
-            this.btnCoffeOn.Name = "btnCoffeOn";
-            this.btnCoffeOn.Size = new System.Drawing.Size(40, 40);
-            this.btnCoffeOn.TabIndex = 7;
-            this.btnCoffeOn.TabStop = false;
-            this.btnCoffeOn.UseVisualStyleBackColor = false;
-            this.btnCoffeOn.Visible = false;
-            this.btnCoffeOn.Click += new System.EventHandler(this.CoffeeOff);
+            this.btnCoffeeOn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnCoffeeOn.Image = global::RauSmartHome.Properties.Resources.coffeeOn;
+            this.btnCoffeeOn.Location = new System.Drawing.Point(505, 405);
+            this.btnCoffeeOn.Name = "btnCoffeeOn";
+            this.btnCoffeeOn.Size = new System.Drawing.Size(40, 40);
+            this.btnCoffeeOn.TabIndex = 7;
+            this.btnCoffeeOn.TabStop = false;
+            this.btnCoffeeOn.UseVisualStyleBackColor = false;
+            this.btnCoffeeOn.Visible = false;
+            this.btnCoffeeOn.Click += new System.EventHandler(this.CoffeeOff);
             // 
             // btnWaterOn
             // 
@@ -2849,6 +2741,132 @@
             this.pbxSun.TabStop = false;
             this.pbxSun.Visible = false;
             // 
+            // pbxLux
+            // 
+            this.pbxLux.Image = global::RauSmartHome.Properties.Resources.sunny;
+            this.pbxLux.Location = new System.Drawing.Point(200, 30);
+            this.pbxLux.Name = "pbxLux";
+            this.pbxLux.Size = new System.Drawing.Size(30, 30);
+            this.pbxLux.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxLux.TabIndex = 7;
+            this.pbxLux.TabStop = false;
+            // 
+            // pbxWind
+            // 
+            this.pbxWind.Image = global::RauSmartHome.Properties.Resources.wind;
+            this.pbxWind.Location = new System.Drawing.Point(107, 31);
+            this.pbxWind.Name = "pbxWind";
+            this.pbxWind.Size = new System.Drawing.Size(30, 30);
+            this.pbxWind.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxWind.TabIndex = 7;
+            this.pbxWind.TabStop = false;
+            // 
+            // pbxTemperature
+            // 
+            this.pbxTemperature.Image = global::RauSmartHome.Properties.Resources.temperature;
+            this.pbxTemperature.Location = new System.Drawing.Point(15, 30);
+            this.pbxTemperature.Name = "pbxTemperature";
+            this.pbxTemperature.Size = new System.Drawing.Size(30, 30);
+            this.pbxTemperature.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxTemperature.TabIndex = 7;
+            this.pbxTemperature.TabStop = false;
+            // 
+            // btnFloor1LightsOff
+            // 
+            this.btnFloor1LightsOff.BackColor = System.Drawing.Color.Gray;
+            this.btnFloor1LightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
+            this.btnFloor1LightsOff.Location = new System.Drawing.Point(33, 70);
+            this.btnFloor1LightsOff.Name = "btnFloor1LightsOff";
+            this.btnFloor1LightsOff.Size = new System.Drawing.Size(32, 32);
+            this.btnFloor1LightsOff.TabIndex = 7;
+            this.btnFloor1LightsOff.TabStop = false;
+            this.btnFloor1LightsOff.UseVisualStyleBackColor = false;
+            this.btnFloor1LightsOff.Click += new System.EventHandler(this.Floor1LightsOff);
+            // 
+            // btnFloor2LightsOff
+            // 
+            this.btnFloor2LightsOff.BackColor = System.Drawing.Color.Gray;
+            this.btnFloor2LightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
+            this.btnFloor2LightsOff.Location = new System.Drawing.Point(157, 70);
+            this.btnFloor2LightsOff.Name = "btnFloor2LightsOff";
+            this.btnFloor2LightsOff.Size = new System.Drawing.Size(32, 32);
+            this.btnFloor2LightsOff.TabIndex = 7;
+            this.btnFloor2LightsOff.TabStop = false;
+            this.btnFloor2LightsOff.UseVisualStyleBackColor = false;
+            this.btnFloor2LightsOff.Click += new System.EventHandler(this.Floor2LightsOff);
+            // 
+            // btnExteriorLightsOff
+            // 
+            this.btnExteriorLightsOff.BackColor = System.Drawing.Color.Gray;
+            this.btnExteriorLightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
+            this.btnExteriorLightsOff.Location = new System.Drawing.Point(157, 27);
+            this.btnExteriorLightsOff.Name = "btnExteriorLightsOff";
+            this.btnExteriorLightsOff.Size = new System.Drawing.Size(32, 32);
+            this.btnExteriorLightsOff.TabIndex = 7;
+            this.btnExteriorLightsOff.TabStop = false;
+            this.btnExteriorLightsOff.UseVisualStyleBackColor = false;
+            this.btnExteriorLightsOff.Click += new System.EventHandler(this.ExteriorLightsOff);
+            // 
+            // btnFloor2LightsOn
+            // 
+            this.btnFloor2LightsOn.BackColor = System.Drawing.Color.Yellow;
+            this.btnFloor2LightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
+            this.btnFloor2LightsOn.Location = new System.Drawing.Point(126, 70);
+            this.btnFloor2LightsOn.Name = "btnFloor2LightsOn";
+            this.btnFloor2LightsOn.Size = new System.Drawing.Size(32, 32);
+            this.btnFloor2LightsOn.TabIndex = 7;
+            this.btnFloor2LightsOn.TabStop = false;
+            this.btnFloor2LightsOn.UseVisualStyleBackColor = false;
+            this.btnFloor2LightsOn.Click += new System.EventHandler(this.Floor2LightsOn);
+            // 
+            // btnFloor1LightsOn
+            // 
+            this.btnFloor1LightsOn.BackColor = System.Drawing.Color.Yellow;
+            this.btnFloor1LightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
+            this.btnFloor1LightsOn.Location = new System.Drawing.Point(2, 70);
+            this.btnFloor1LightsOn.Name = "btnFloor1LightsOn";
+            this.btnFloor1LightsOn.Size = new System.Drawing.Size(32, 32);
+            this.btnFloor1LightsOn.TabIndex = 7;
+            this.btnFloor1LightsOn.TabStop = false;
+            this.btnFloor1LightsOn.UseVisualStyleBackColor = false;
+            this.btnFloor1LightsOn.Click += new System.EventHandler(this.Floor1LightsOn);
+            // 
+            // btnAllLightsOff
+            // 
+            this.btnAllLightsOff.BackColor = System.Drawing.Color.Gray;
+            this.btnAllLightsOff.Image = global::RauSmartHome.Properties.Resources.lightOff;
+            this.btnAllLightsOff.Location = new System.Drawing.Point(33, 27);
+            this.btnAllLightsOff.Name = "btnAllLightsOff";
+            this.btnAllLightsOff.Size = new System.Drawing.Size(32, 32);
+            this.btnAllLightsOff.TabIndex = 7;
+            this.btnAllLightsOff.TabStop = false;
+            this.btnAllLightsOff.UseVisualStyleBackColor = false;
+            this.btnAllLightsOff.Click += new System.EventHandler(this.AllLightsOff);
+            // 
+            // btnExteriorLightsOn
+            // 
+            this.btnExteriorLightsOn.BackColor = System.Drawing.Color.Yellow;
+            this.btnExteriorLightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
+            this.btnExteriorLightsOn.Location = new System.Drawing.Point(126, 27);
+            this.btnExteriorLightsOn.Name = "btnExteriorLightsOn";
+            this.btnExteriorLightsOn.Size = new System.Drawing.Size(32, 32);
+            this.btnExteriorLightsOn.TabIndex = 7;
+            this.btnExteriorLightsOn.TabStop = false;
+            this.btnExteriorLightsOn.UseVisualStyleBackColor = false;
+            this.btnExteriorLightsOn.Click += new System.EventHandler(this.ExteriorLightsOn);
+            // 
+            // btnAllLightsOn
+            // 
+            this.btnAllLightsOn.BackColor = System.Drawing.Color.Yellow;
+            this.btnAllLightsOn.Image = global::RauSmartHome.Properties.Resources.lightOn;
+            this.btnAllLightsOn.Location = new System.Drawing.Point(2, 27);
+            this.btnAllLightsOn.Name = "btnAllLightsOn";
+            this.btnAllLightsOn.Size = new System.Drawing.Size(32, 32);
+            this.btnAllLightsOn.TabIndex = 7;
+            this.btnAllLightsOn.TabStop = false;
+            this.btnAllLightsOn.UseVisualStyleBackColor = false;
+            this.btnAllLightsOn.Click += new System.EventHandler(this.AllLightsOn);
+            // 
             // pbxHouse
             // 
             this.pbxHouse.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -2860,6 +2878,17 @@
             this.pbxHouse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxHouse.TabIndex = 0;
             this.pbxHouse.TabStop = false;
+            // 
+            // lblLux
+            // 
+            this.lblLux.AutoSize = true;
+            this.lblLux.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLux.Location = new System.Drawing.Point(192, 62);
+            this.lblLux.Name = "lblLux";
+            this.lblLux.Size = new System.Drawing.Size(40, 22);
+            this.lblLux.TabIndex = 8;
+            this.lblLux.Text = " 0k";
+            this.lblLux.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainWindow
             // 
@@ -2889,7 +2918,7 @@
             this.Controls.Add(this.btnSolarOff);
             this.Controls.Add(this.btnWindOff);
             this.Controls.Add(this.btnCameraOff);
-            this.Controls.Add(this.btnCoffeOff);
+            this.Controls.Add(this.btnCoffeeOff);
             this.Controls.Add(this.btnWashOff);
             this.Controls.Add(this.btnSprinklerOff);
             this.Controls.Add(this.btnBackOff);
@@ -2904,7 +2933,7 @@
             this.Controls.Add(this.btnSolarOn);
             this.Controls.Add(this.btnWindOn);
             this.Controls.Add(this.btnCameraOn);
-            this.Controls.Add(this.btnCoffeOn);
+            this.Controls.Add(this.btnCoffeeOn);
             this.Controls.Add(this.btnWaterOn);
             this.Controls.Add(this.btnWashOn);
             this.Controls.Add(this.btnDinningOn);
@@ -2942,16 +2971,17 @@
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.gbxCameras.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxBackCamera)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxFrontCamera)).EndInit();
             this.gbxLights.ResumeLayout(false);
             this.gbxLights.PerformLayout();
             this.gbxSensors.ResumeLayout(false);
             this.gbxSensors.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxWind)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxTemperature)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxBackCamera)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFrontCamera)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMoon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxSun)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxLux)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxWind)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTemperature)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxHouse)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -3076,8 +3106,8 @@
         private System.Windows.Forms.Button btnWaterOff;
         private System.Windows.Forms.Button btnWashOn;
         private System.Windows.Forms.Button btnWashOff;
-        private System.Windows.Forms.Button btnCoffeOn;
-        private System.Windows.Forms.Button btnCoffeOff;
+        private System.Windows.Forms.Button btnCoffeeOn;
+        private System.Windows.Forms.Button btnCoffeeOff;
         private System.Windows.Forms.Button btnTvOn;
         private System.Windows.Forms.Button btnTvOff;
         private System.Windows.Forms.Button btnSolarOn;
@@ -3096,6 +3126,8 @@
         private System.Windows.Forms.Button btnHighOff;
         private System.Windows.Forms.Label lblTemp;
         private System.Windows.Forms.ToolTip toolTips;
+        private System.Windows.Forms.PictureBox pbxLux;
+        private System.Windows.Forms.Label lblLux;
     }
 }
 

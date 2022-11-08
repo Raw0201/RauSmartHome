@@ -18,7 +18,7 @@ namespace RauSmartHome
         {
             InitializeComponent();
             this.image = image;
-            pictureBox1.Image = image;
+            pbxCameraImage.Image = image;
         }
     }
 }

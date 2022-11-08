@@ -29,37 +29,37 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pbxCameraImage = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxCameraImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pbxCameraImage
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(784, 561);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pbxCameraImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbxCameraImage.Location = new System.Drawing.Point(0, 0);
+            this.pbxCameraImage.Name = "pbxCameraImage";
+            this.pbxCameraImage.Size = new System.Drawing.Size(784, 561);
+            this.pbxCameraImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxCameraImage.TabIndex = 0;
+            this.pbxCameraImage.TabStop = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbxCameraImage);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Camera Monitor";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Monitor de cámara";
+            ((System.ComponentModel.ISupportInitialize)(this.pbxCameraImage)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbxCameraImage;
     }
 }
